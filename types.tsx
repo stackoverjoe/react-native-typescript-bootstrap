@@ -4,13 +4,14 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
+  Features: undefined;
   Map: undefined;
   TabThree: undefined;
 };
 
 export type TabOneParamList = {
   TabOneScreen: undefined;
+  CameraScreen: undefined;
 };
 
 export type TabTwoParamList = {
@@ -30,4 +31,14 @@ export type ExpoLocation = {
   altitudeAccuracy: number;
   heading: number;
   speed: number;
+};
+
+export type Screens = {
+  cameraScreen: TabOneParamList;
+};
+
+export type Feature = {
+  name: string;
+  destination: string;
+  id: number;
 };

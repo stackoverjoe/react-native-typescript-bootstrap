@@ -8,6 +8,7 @@ import useColorScheme from "../hooks/useColorScheme";
 import TabOneScreen from "../screens/TabOneScreen";
 import TabTwoScreen from "../screens/TabTwoScreen";
 import TabThreeScreen from "../screens/TabThreeScreen";
+import CameraScreen from "../screens/CameraScreen";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import {
@@ -24,15 +25,15 @@ export default function BottomTabNavigator() {
 
   return (
     <BottomTab.Navigator
-      initialRouteName="TabOne"
+      initialRouteName="Features"
       tabBarOptions={{ activeTintColor: Colors[colorScheme].tint }}
     >
       <BottomTab.Screen
-        name="TabOne"
+        name="Features"
         component={TabOneNavigator}
         options={{
           tabBarIcon: ({ color }) => (
-            <TabBarIcon name="ios-code" color={color} />
+            <TabBarIcon name="ios-list" color={color} />
           ),
         }}
       />
@@ -78,7 +79,12 @@ function TabOneNavigator() {
       <TabOneStack.Screen
         name="TabOneScreen"
         component={TabOneScreen}
-        options={{ headerTitle: "Tab One Title" }}
+        options={{ headerTitle: "Features" }}
+      />
+      <TabOneStack.Screen
+        name="CameraScreen"
+        component={CameraScreen}
+        options={{ headerTitle: "Camera" }}
       />
     </TabOneStack.Navigator>
   );
