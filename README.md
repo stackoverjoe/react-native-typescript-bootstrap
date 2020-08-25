@@ -8,3 +8,24 @@ A repo to barebones implement numerous react-native/Expo components with typescr
 - React Native Maps
 - Expo Location
 - Expo Camera
+- Permissions
+
+## Expo To-Do:
+
+- Acceleromoter
+- Push Notifications 
+- ImagePicker
+- AuthSessions
+- Face Detector
+- Firebase
+- InAppPurchases
+- ScreenCapture
+- Video
+- VideoThumbNails
+- Payments
+- GoogleSignIn
+- Calendar
+- AR
+- WebView
+- WebBrowser
+- Sharing
