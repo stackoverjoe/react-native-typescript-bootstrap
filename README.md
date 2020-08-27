@@ -13,7 +13,6 @@ A repo to barebones implement numerous react-native/Expo components with typescr
 ## Expo To-Do:
 
 - Acceleromoter
-- Push Notifications 
 - ImagePicker
 - AuthSessions
 - Face Detector
@@ -29,3 +28,9 @@ A repo to barebones implement numerous react-native/Expo components with typescr
 - WebView
 - WebBrowser
 - Sharing
+
+## In Progress:
+- Push Notifications 
+
+
+If you have any questions or comments you can email me at <joe@stackoverjoe.com>
