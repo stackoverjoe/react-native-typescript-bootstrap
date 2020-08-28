@@ -1,6 +1,6 @@
 # react-native-typescript-bootstrap
 
-A repo to barebones implement numerous react-native/Expo components with typescript. Created by running _expo init projectname_ and selecting the typescript with tabs option. Contribution and suggestions welcomed!
+A repo to barebones implement numerous react-native/Expo components with typescript. Created by running _expo init projectname_ and selecting the typescript with tabs option. Contributions and suggestions welcomed!
 
 ## Currently Demonstrates
 
