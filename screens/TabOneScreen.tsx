@@ -16,6 +16,7 @@ interface FeatureScreenNavigationProps {
 //define new features and their navigation component name here
 var features: Array<Feature> = [
   { name: "Camera", destination: "CameraScreen", id: 1 },
+  { name: "Push Notification", destination: "PushNotificationScreen", id: 2 },
 ];
 
 export default function TabOneScreen({

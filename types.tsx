@@ -12,6 +12,7 @@ export type BottomTabParamList = {
 export type TabOneParamList = {
   TabOneScreen: undefined;
   CameraScreen: undefined;
+  PushNotificationScreen: undefined;
 };
 
 export type TabTwoParamList = {

@@ -9,6 +9,7 @@ import TabOneScreen from "../screens/TabOneScreen";
 import TabTwoScreen from "../screens/TabTwoScreen";
 import TabThreeScreen from "../screens/TabThreeScreen";
 import CameraScreen from "../screens/CameraScreen";
+import PushNotification from "../screens/PushNotificationScreen";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import {
@@ -85,6 +86,11 @@ function TabOneNavigator() {
         name="CameraScreen"
         component={CameraScreen}
         options={{ headerTitle: "Camera" }}
+      />
+      <TabOneStack.Screen
+        name="PushNotificationScreen"
+        component={PushNotification}
+        options={{ headerTitle: "Push Notifications" }}
       />
     </TabOneStack.Navigator>
   );
