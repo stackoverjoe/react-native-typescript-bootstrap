@@ -41,7 +41,7 @@ A repo to barebones implement numerous react-native/Expo components with typescr
 
 ### To demo on your device:
 
-1. Download the expo app for your android or iOS device and make an account
+1. Download the [expo app](https://expo.io/tools) for your android or iOS device and make an account
 2. `npm install -g expo-cli`
 3. Clone this repo and cd into it
 4. `npm install`
