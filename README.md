@@ -25,6 +25,7 @@ A repo to barebones implement numerous react-native/Expo components with typescr
 - Payments
 - Calendar
 - AR
+- Redux
 - WebView
 - WebBrowser
 - Sharing
